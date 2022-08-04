@@ -1,0 +1,37 @@
+body {
+  background-color: #f1f5f1;
+}
+
+.wrapper {
+  width: 400px;
+  height: 100px;
+  text-align: center;
+}
+
+.selectedWord {
+  color: red;
+  font-family: cursive;
+}
+
+.changeColorBtn {
+  width: 200px;
+  outline: none;
+  border: ridge;
+  border-radius: 7px;
+  padding: 5px;
+  background-color: #facc15;
+  cursor: pointer;
+}
+
+.colorGrid {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+
+.colorValue {
+  font-weight: bold;
+}

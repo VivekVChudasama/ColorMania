@@ -1,0 +1,21 @@
+{
+    "name":"ColorMania",
+    "description":"A color picker extension",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":"colorpickerLogo.png"
+    },
+    "icons":{
+        "128":"colorpickerLogo.png"
+    },
+    "permissions":[
+      "activeTab",
+      "scripting",
+      "storage"
+     ]
+}
